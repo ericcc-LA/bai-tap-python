@@ -7,7 +7,7 @@ def find_insert_position(my_list, target):
             return i
     return len(my_list)
 
-if __name__ == "__main__":
+if __name__== "__main__":
 
     print(find_insert_position([1, 3, 5, 6], 5))
 
