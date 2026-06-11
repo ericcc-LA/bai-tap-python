@@ -1,17 +1,15 @@
 
 
-def merge_dicts(*dicts):
+def merge_dicts(*dicts: dict):
 
     result = {}
 
     for i in dicts:
-    
-
         for key, value in i.items():
-
             result[key] = value
 
     return result
+
 
 if __name__ == "__main__":
 
