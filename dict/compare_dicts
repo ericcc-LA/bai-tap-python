@@ -3,6 +3,7 @@ bai 4 : so sanh dict va tinh chenh leechj
 
 '''
 
+
 def compare_dicts(before, after):
     result = {}
 
