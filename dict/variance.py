@@ -40,3 +40,13 @@ if __name__ == "__main__":
 
     print(calculate_variance(data))
     print(calculate_std_dev(data))
+'''
+total = 0
+totalc = 0
+for i in scores.items():
+    weight = i["score"] * i["credit"]
+    total += weight
+    totalc += i["credit"]
+
+return total/totalc
+'''
