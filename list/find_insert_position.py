@@ -1,11 +1,13 @@
+
 def find_insert_position(my_list, target):
-    
+
     for i in range(len(my_list)):
-        
+
         if target <= my_list[i]:
-            
+
             return i
     return len(my_list)
+
 
 if __name__ == "__main__":
 
